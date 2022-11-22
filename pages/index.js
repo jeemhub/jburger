@@ -18,7 +18,7 @@ return (
        
       </div>
       <div className="md:mr-28 md:mt-16 border-4 mt-36  border-amber-600 rounded-b-full  border-dashed">
-       <Image src={purger} width="500" height='620' className="rounded-b-full   "></Image>
+       <Image alt=''  src={purger} width="500" height='620' className="rounded-b-full   "></Image>
       
       </div>
     </div>

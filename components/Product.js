@@ -25,7 +25,8 @@ function Product(props) {
         p: props.p,
         img: props.img,
         price: props.price*count,
-        count:count
+        count:count,
+        id:props.key,
       }
     ));
   }
@@ -35,7 +36,7 @@ function Product(props) {
   return (
     <div className='bg-white h-auto pb-10 rounded-xl m-2 mt-4'>
       <dev className='relative  '>
-          <Image src={props.img} width={200} height={250} className="rounded-b-full self-center "></Image>
+          <Image alt='' src={props.img} width={200} height={250} className="rounded-b-full self-center "></Image>
         <span className='shadow-lg rounded-full bg-red-600 z-10 text-white p-5 text-2xl font-bold'>{props.price * count}$</span>
       </dev>
       <div className=' flex-col items-start'>

@@ -26,7 +26,7 @@ function Basket() {
       <div className='grid gap-3 bg-black md:grid-cols-2 xl:grid-cols-4 grid-cols-1'>
         {product.map(info => {
           return (
-            <Product count={info.count} AR={false} price={info.price} title={info.title} p={info.p} img={info.img} />
+            <Product Key={info.id} count={info.count} AR={false} price={info.price} title={info.title} p={info.p} img={info.img} />
             )
           })}
 

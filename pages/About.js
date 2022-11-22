@@ -8,7 +8,7 @@ function About() {
   return (
     <div className='flex flex-col md:flex-row md:items-start items-center md:justify-center  w-full h-screen p-10   '>
       <div className=' border-4  border-amber-600 rounded-b-full border-dashed  mt-24 '>
-      <Image src={Aboutimg} width="600" height='610' className="rounded-b-full "></Image>
+      <Image alt=''  src={Aboutimg} width="600" height='610' className="rounded-b-full "></Image>
       </div>
 
 
